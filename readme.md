@@ -5,6 +5,7 @@
 # Filter() method
 ## The filter() method is an ES6 method. It provides a cleaner syntax to filter through an array. It creates a new array containing only the elements that meet a specified condition, without modifying the original array.
 
+## How to Filter an Array in JavaScript
 - Using the filter method involves making a fresh copy of a part of the original array. It selects elements from the array based on a condition defined by a given function.
 
 - The filter method works through an array one element at a time. It runs a specified callback function for each element, creating a new array with only the elements that satisfy the condition specified in the callback function. Elements that don't meet the condition are excluded from the new array.
