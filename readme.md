@@ -15,6 +15,15 @@
 
 - For example, if you have an object storing users' details, including their name, age, and occupation, these object static methods help transform the object's keys, values, or key-value pairs into arrays for further processing.
 
+Reference links
+[BroCode(video)](https://www.youtube.com/watch?v=VvSEKHKFvpQ),
+[FreeCodeCamp](https://www.freecodecamp.org/news/filter-arrays-in-javascript/),
+[GeeksForGeeks](https://www.geeksforgeeks.org/javascript-array-filter-method/#),
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter),
+[W3Schools](https://www.w3schools.com/jsref/jsref_filter.asp)
+
+
+
 
 
 
