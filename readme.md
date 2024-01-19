@@ -10,14 +10,31 @@
 
 - The filter method works through an array one element at a time. It runs a specified callback function for each element, creating a new array with only the elements that satisfy the condition specified in the callback function. Elements that don't meet the condition are excluded from the new array.
 
+**_// Syntax_**
+1. myArray.filter(callbackFn)
+2. myArray.filter((element, index, array) => { /* ... */ })
+   
+
 ## How to Filter an Object in JavaScript
 - JavaScript objects don't support direct iteration like arrays or strings, making it impossible to use methods like filter() or a for loop directly on them. However, you can filter an object by first converting it to an array using object static methods such as Object.keys(), Object.values(), or Object.entries(). After converting to an array, you can apply the filter() method to get a new array with the filtered elements.
 
 - For example, if you have an object storing users' details, including their name, age, and occupation, these object static methods help transform the object's keys, values, or key-value pairs into arrays for further processing.
 
+## Time and Space Complexity of .filter() in JavaScript
+- Array.prototype.filter(): O(n) time complexity and O(n) space complexity. This method creates a new array with all elements that pass the test implemented by the provided function.
+
+## Supported Browsers:
+The browsers supported by the JavaScript Array filter() method : 
+- Google Chrome
+- Microsoft Edge 9.0
+- Mozilla Firefox 1.5
+- Safari
+- Opera
+
 Reference links
 [BroCode(video)](https://www.youtube.com/watch?v=VvSEKHKFvpQ),
 [FreeCodeCamp](https://www.freecodecamp.org/news/filter-arrays-in-javascript/),
+[Javascript.plainenglish](https://javascript.plainenglish.io/understanding-time-and-space-complexity-of-common-javascript-built-in-methods-39a3285a6409),
 [GeeksForGeeks](https://www.geeksforgeeks.org/javascript-array-filter-method/#),
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter),
 [W3Schools](https://www.w3schools.com/jsref/jsref_filter.asp)
