@@ -2,7 +2,7 @@
 ![image](https://github.com/M0TS/filter-independent-project-/assets/151381549/b12788c0-622e-4561-8c45-092daae136ba)
 ![image](https://github.com/M0TS/filter-independent-project-/assets/151381549/e3de38da-2725-4413-bce0-c86c57ec4147)
 
-# Filter method
+# Filter() method
 ## The filter() method is an ES6 method. It provides a cleaner syntax to filter through an array. It creates a new array containing only the elements that meet a specified condition, without modifying the original array.
 
 - Using the filter method involves making a fresh copy of a part of the original array. It selects elements from the array based on a condition defined by a given function.
