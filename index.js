@@ -20,6 +20,6 @@ function filterMinerals(element) {
 const filterLunarMinerals = lunarMinerals.filter(mineral => mineral.length >= 8);
 // lunarMinerals is an array containing the mineral names.
 // .filter() creates a new array containing the elements that pass the provided test.
-// (mineral => mineral.length >= 8): This is an arrow function used as the test condition for filtering. It takes each mineral in the array as a parameter and checks if the length of the mineral name is greater than or equal to 8.
+// (mineral => mineral.length >= 8) This is an arrow function used as the test condition for filtering. It takes each mineral in the array as a parameter and checks if the length of the mineral name is greater than or equal to 8.
 // filterLunarMinerals is the resulting array after applying the filter. It contains only the elements(minerals) where the condition mineral.length >= 8 is true.
 console.log(filterLunarMinerals);
