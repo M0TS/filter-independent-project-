@@ -10,6 +10,8 @@
 
 - The filter method works through an array one element at a time. It runs a specified callback function for each element, creating a new array with only the elements that satisfy the condition specified in the callback function. Elements that don't meet the condition are excluded from the new array.
 
+![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1603485013753/Sul41IwOa.gif?auto=format,compress&gif-q=60&format=webm)
+
 
 
 ## How to Filter an Object in JavaScript
