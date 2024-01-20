@@ -16,13 +16,13 @@ There are three different ways to write the syntax of filter() method:
 - Inline callback function: **_filter(( function(element, index) => {// function body})_**
 
 ## JavaScript Filter() on an Array of Numbers
-- The filter() extracts a list of even numbers to create a new list named evenNumbers. It checks each number's evenness using the modulo operator (%), including it in the new list if divisible by two and excluding it if odd.
+The filter() extracts a list of even numbers to create a new list named evenNumbers. It checks each number's evenness using the modulo operator (%), including it in the new list if divisible by two and excluding it if odd.
 
 ![image](https://github.com/M0TS/filter-independent-project-/assets/151381549/8511e027-2e95-4c44-9d60-0900700c374c)
 <sub> filter() method returning only even numbers </sub>
 
 ## JavaScript Filter() on an Array of Car Brands
-- The filter() extracts "B" starting car brands from the array, creating a new array matching the query. It checks and generates a new array inside the function, including brands like Bentley, BMW, and Bertone. The filter() preserves the original array, delivering a new one with matching elements.
+The filter() extracts "B" starting car brands from the array, creating a new array matching the query. It checks and generates a new array inside the function, including brands like Bentley, BMW, and Bertone. The filter() preserves the original array, delivering a new one with matching elements.
 
 ![image](https://github.com/M0TS/filter-independent-project-/assets/151381549/692abec1-78c7-4d07-85ef-c590a6cf2a0c)
 <sub> filter() method returns cars starting with the letter "B" </sub>
@@ -33,7 +33,7 @@ There are three different ways to write the syntax of filter() method:
 - For example, if you have an object storing users' details, including their name, age, and occupation, these object static methods help transform the object's keys, values, or key-value pairs into arrays for further processing.
 
 ## JavaScript Filter() on an Array of Objects
-- Established an array of freelancers, each represented as an object. Employing the filter() method on the freelancers array, a function was used to check if each freelancer possesses JavaScript skills. Freelancers meeting the condition were included in the new array filter_freelancers, while those without the skill were excluded. The new array comprises two freelancers, Harry and David, both skilled in JavaScript.
+Established an array of freelancers, each represented as an object. Employing the filter() method on the freelancers array, a function was used to check if each freelancer possesses JavaScript skills. Freelancers meeting the condition were included in the new array filter_freelancers, while those without the skill were excluded. The new array comprises two freelancers, Harry and David, both skilled in JavaScript.
 
 ![image](https://github.com/M0TS/filter-independent-project-/assets/151381549/016300f6-f75f-4b6e-bb3f-af2a9eedcee0)
 <sub> filter() method checking array of freelancers with JavaScript skill </sub>
