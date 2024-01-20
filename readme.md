@@ -36,6 +36,7 @@ Reference links
 [Javascript.plainenglish](https://javascript.plainenglish.io/understanding-time-and-space-complexity-of-common-javascript-built-in-methods-39a3285a6409),
 [GeeksForGeeks](https://www.geeksforgeeks.org/javascript-array-filter-method/#),
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter),
+[Medium(GIF)](https://ghost-together.medium.com/map-filter-and-reduce-animated-7fe391a35a47),
 [W3Schools](https://www.w3schools.com/jsref/jsref_filter.asp)
 
 
