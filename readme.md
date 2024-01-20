@@ -27,12 +27,6 @@ There are three different ways to write the syntax of filter() method:
 ![image](https://github.com/M0TS/filter-independent-project-/assets/151381549/692abec1-78c7-4d07-85ef-c590a6cf2a0c)
 <sub> filter() method returns cars starting with the letter "B" </sub>
 
-
-
-![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1603485013753/Sul41IwOa.gif?auto=format,compress&gif-q=60&format=webm)
-<sub> GIF showing visual filter() </sub>
-
-
 ## How to Filter an Object in JavaScript
 - JavaScript objects don't support direct iteration like arrays or strings, making it impossible to use methods like filter() or a for loop directly on them. However, you can filter an object by first converting it to an array using object static methods such as Object.keys(), Object.values(), or Object.entries(). After converting to an array, you can apply the filter() method to get a new array with the filtered elements.
 
@@ -43,6 +37,9 @@ There are three different ways to write the syntax of filter() method:
 
 ![image](https://github.com/M0TS/filter-independent-project-/assets/151381549/016300f6-f75f-4b6e-bb3f-af2a9eedcee0)
 <sub> filter() method checking array of freelancers with JavaScript skill </sub>
+
+![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1603485013753/Sul41IwOa.gif?auto=format,compress&gif-q=60&format=webm)
+<sub> GIF showing visual filter() </sub>
 
 
 ## Time and Space Complexity of .filter() in JavaScript
