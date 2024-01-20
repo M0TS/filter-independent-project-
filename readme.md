@@ -10,10 +10,7 @@
 
 - The filter method works through an array one element at a time. It runs a specified callback function for each element, creating a new array with only the elements that satisfy the condition specified in the callback function. Elements that don't meet the condition are excluded from the new array.
 
-**_// Syntax_**
-1. myArray.filter(callbackFn)
-2. myArray.filter((element, index, array) => { /* ... */ })
-   
+
 
 ## How to Filter an Object in JavaScript
 - JavaScript objects don't support direct iteration like arrays or strings, making it impossible to use methods like filter() or a for loop directly on them. However, you can filter an object by first converting it to an array using object static methods such as Object.keys(), Object.values(), or Object.entries(). After converting to an array, you can apply the filter() method to get a new array with the filtered elements.
